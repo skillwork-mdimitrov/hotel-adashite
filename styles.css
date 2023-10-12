@@ -1,3 +1,36 @@
 * {
   color: red;
 }
+/* Basic styles for the desktop version */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar li {
+    margin: 0;
+    padding: 10px 0;
+  }
+}
