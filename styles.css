@@ -1,4 +1,4 @@
-/* Basic styles for the desktop version */
+
 .navbar {
   background-color: #333;
   overflow: hidden;
@@ -21,7 +21,7 @@
   font-size: 18px;
 }
 
-/* Media query for mobile responsiveness */
+
 @media screen and (max-width: 600px) {
   .navbar ul {
     flex-direction: column;
@@ -33,7 +33,7 @@
     text-align: center;
   }
 
-  /* Stylish hamburger icon */
+
   .toggle-button {
     display: block;
     background: none;
@@ -46,7 +46,7 @@
     right: 10px;
   }
 
-  /* Show/hide animation for the mobile menu */
+
   .navbar ul {
     max-height: 0;
     overflow: hidden;
@@ -54,6 +54,6 @@
   }
 
   .navbar ul.show {
-    max-height: 300px; /* Adjust this value as needed */
+    max-height: 300px; 
   }
 }
