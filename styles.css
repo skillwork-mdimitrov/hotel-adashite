@@ -26,7 +26,7 @@ html {
   font-size: 1rem; /* 1rem is equivalent to 16px */
 }
 
-/* Media query for mobile responsiveness */
+
 @media screen and (max-width: 600px) {
   .navbar ul {
     flex-direction: column;
@@ -50,7 +50,7 @@ html {
     right: 1rem; /* Adjust as needed */
   }
 
-  /* Show/hide animation for the mobile menu */
+
   .navbar ul {
     max-height: 0;
     overflow: hidden;
