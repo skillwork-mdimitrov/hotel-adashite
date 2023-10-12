@@ -5,6 +5,11 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.body{  
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
 .navbar{
   background-color: #333;
   overflow: hidden;
@@ -24,11 +29,6 @@ html {
   color: white;
   text-decoration: none;
   font-size: 1rem; 
-}
-.body{  
-  margin: 0;
-  padding: 0;
-  height: 100vh;
 }
 
 @media screen and (max-width: 600px) {
