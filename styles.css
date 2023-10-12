@@ -44,7 +44,7 @@ html {
     border: none;
     cursor: pointer;
     font-size: 1.5rem; /* Adjust as needed */
-    color: #FFF;
+    color: blue;
     position: absolute;
     top: 1rem; /* Adjust as needed */
     right: 1rem; /* Adjust as needed */
