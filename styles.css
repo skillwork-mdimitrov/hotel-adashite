@@ -61,3 +61,8 @@ html {
     max-height: 300px; /* Adjust as needed */
   }
 }
+@media screen and (min-width: 601px) {
+  .toggle-button {
+    display: none; /* Hide the toggle button on desktop screens */
+  }
+}
