@@ -1,6 +1,3 @@
-* {
-  color: red;
-}
 /* Basic styles for the desktop version */
 .navbar {
   background-color: #333;
@@ -21,6 +18,7 @@
 .navbar a {
   color: white;
   text-decoration: none;
+  font-size: 18px;
 }
 
 /* Media query for mobile responsiveness */
@@ -32,5 +30,30 @@
   .navbar li {
     margin: 0;
     padding: 10px 0;
+    text-align: center;
+  }
+
+  /* Stylish hamburger icon */
+  .toggle-button {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: blue;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  /* Show/hide animation for the mobile menu */
+  .navbar ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .navbar ul.show {
+    max-height: 300px; /* Adjust this value as needed */
   }
 }
